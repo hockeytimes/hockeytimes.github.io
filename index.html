@@ -1,75 +1,164 @@
-<!DOCTYPE html>
-<head>
-  <title>Home-B</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-   body{background:rgba(0,0,0,.1);margin:0;}
-div{margin:0 auto;}
-.a{width:700px;margin-bottom:10px;}
-.b{background:white;color:black;font-size:24px;padding:10px;text-align:center;display:block;text-decoration:none;border-bottom:.5px solid lightgrey;}
-.b:hover{background:lightgreen;}
-.m{display:none;}
-.w{display:flex;flex-direction:column;}
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>The Hockey Times</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-@media (max-width:400px){
-  .a{width:99%;}
-  .d{display:none;}
-  .m{display:inherit;}
-  .w{flex-direction:column;}
-}
-</style>
-</head>
-<body>
-<!-- 
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-<div class="a">
-  <a class="b" href="http://.com"></a> 
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+<!--
+<a href=""></a>
+<a class="hidden" href=""></a>
+-->
+        
+<header>
+  <img src="http://thehockeytimes.neocities.org/star-4-xxl.png">
+  <h1>The Hockey Times</h1>
+</header>
+
+<div class="headerB">
+  <div class="scoresd">
+  <p>Scores</p>
+  <a href="http://www.usatoday.com/sports/nhl/scores/">NHL</a>
+  <a href="http://en.khl.ru/calendar/">KHL</a>
+  <a href="http://theahl.com/stats/daily-schedule">AHL</a>
+  <a href="http://www.echl.com/daily-schedule">ECHL</a>
+  <a href="http://thesphl.stats.pointstreak.com/scoreboard.html?leagueid=215">SPHL</a>
+  <a href="http://www.federalhockey.com/stats#/182/scores?season_id=473">FHL</a>
+  <a href="http://ontariohockeyleague.com/scores">OHL</a>
+  <a href="http://theqmjhl.ca/scores">QMJHL</a>
+  <a href="http://whl.ca/scores">WHL</a>
+  <a href="http://www.ushl.com/view#/daily-schedule">USHL</a>
+  <a href="http://nahl.com/game-center/daily-schedule?date=2017-03-22&league_code=nahl">NAHL</a>
+  <a href="http://na3hl.com/game-center/daily-schedule?date=2017-03-22&league_code=na3hl">NA3HL</a>
+  </div>
 </div>
 
--->
+<div class="headerB">
+  <a href="http://www.cbc.ca/sports/hockey/nhl">CBC</a> 
+  <a href="http://www.espn.com/nhl/">ESPN</a> 
+  <a href="http://www.hockeydb.com/scoreboard/">HockeyDB</a>
+  <a href="https://www.reddit.com/r/hockey/">Reddit</a>
+  <a href="http://www.tsn.ca/nhl">TSN</a>
+  <a href="http://sports.yahoo.com/nhl/">Yahoo</a>
+</div>
+
+<div class="scoresmb hidden">
+<a class="lg" href="https://www.nhl.com/">NHL</a>
+<a class="sc" href="http://www.usatoday.com/sports/nhl/scores/">Scores</a>
+<a class="std" href="https://www.nhl.com/standings">Standings</a>
+<a class="sts" href="http://www.hockey-reference.com/leagues/nhl-leaders.html">Stats</a>
+</div>
 
 <div class="w">
-  
-  <div class="a">
-    <a class="b" href="http://start.me">Start.me</a>
+<nav>
+<div class="league">
+<a href="https://www.nhl.com/"><strong>NHL</strong></a>
+<a href="https://www.nhl.com/scores">Scores</a>
+<a href="https://www.nhl.com/news">News</a>
+<a href="http://www.nhl.com/stats/">Stats</a>
+<a href="https://www.nhl.com/standings">Standings</a>
+<a href="https://www.nhl.com/video">Video</a>
+<a class="hidden" href=""></a>
+<a class="hidden" href=""></a>
+<a class="hidden" href=""></a>
+<a class="hidden" href="">App - iPhone</a>
+<a class="hidden" href="">App - Android</a>
+<a class="hidden" href="">YouTube</a>
+<a class="hidden" href="">Twitter</a>
+<a class="hidden" href="">Facebook</a>
+<a class="hidden" href="">Instagram</a>
+</div>
+
+<div class="league">
+<a href="http://en.khl.ru/"><strong>KHL</strong></a>
+<a href="http://en.khl.ru/calendar/">Scores</a>
+<a href="http://en.khl.ru/news/">News</a>
+<a href="http://en.khl.ru/stat/">Stats</a>
+<a href="http://en.khl.ru/standings/">Standings</a>
+<a href="https://video.khl.ru/?locale=en">Video</a>
+<a href="http://en.khl.ru/tickets/">Tickets</a>
+<a href="http://en.khl.ru/clubs/">Teams</a>
+<a href="http://en.khl.ru/players/">Players</a>
+<a href="https://itunes.apple.com/en/app/id455938766?mt=8">App - iPhone</a>
+<a href="https://play.google.com/store/apps/details?id=ru.zennex.khl&hl=en">App - Android</a>
+<a href="http://www.youtube.com/khl">YouTube</a>
+<a href="http://twitter.com/khl_eng">Twitter</a>
+<a href="https://www.facebook.com/KHL.en">Facebook</a>
+<a href="http://www.instagram.com/khl">Instagram</a>
+</div>
+
+</nav>
+
+<article>
+<div class="news">
+    <p><strong>NHL</strong></p>
+    <p>Road to Playoffs</p>
+    <p><strong>West</strong>: Washington, Pittsburgh, Columbus</p>
+    <p><strong>East</strong>: Chicago</p>
+    <p>Probablities:
+<a href="http://www.hockey-reference.com/friv/playoff_prob.cgi">Hockey Reference</a> |
+    <a href="http://www.espn.com/nhl/playoffs/matchups">ESPN</a> |
+    <a href="http://www.sportsclubstats.com/NHL.html">Sports Club Stats</a></p>
+  </div>
+  <div class="news">
+    <p><strong>KHL Playoffs</strong></p>
+    <p>Currently in the Conference Finals</p>
+    <p><strong>West</strong>: SKA vs. Lokomotiv</p>
+    <p><strong>East</strong>: Metallurg vs. Ak Bars</p>
+  </div>
+    <div class="news">
+    <p><strong>CHL Playoffs</strong></p>
+    
   </div>
 
-<div class="a">
-  <a class="b" href="http://www.cnn.com">CNN</a>
-  <a class="b" href="http://drudgereport.com">Drudge Report</a>
-  <a class="b" href="https://news.google.com/">Google News</a>
-  <a class="b" href="http://news.ycombinator.com">Hacker News</a> 
-  <a class="b d" href="http://huffingtonpost.com">The Huffington Post</a>
-  <a class="b m" href="http://m.huffpost.com">The Huffington Post</a>
-  <a class="b" href="http://imgur.com">Imgur</a>
-  <a class="b" href="http://yahoo.com">Yahoo</a>
-</div>
+</article>
 
-<div class="a">
-  <a class="b" href="http://enjoycuhlur.tumblr.com">Cuhlur</a> 
-  <a class="b" href="http://thtimes.org">The Hockey Times</a> 
+<aside>
+ <div class="asideB">
+    <p><strong>Reference</strong></p>
+    <a href="http://www.hockey-reference.com/">Hockey Reference</a>
 </div>
+<div class="asideB">
+    <p><strong>Salaries</strong></p>
+    <a href="https://www.capfriendly.com/">CapFriendly</a>
+    <a href="http://nhlnumbers.com/">NHL Numbers</a>
+    <a href="http://www.spotrac.com/nhl/rankings/">Spotrac</a>
+</div>
+</aside>
 
-<div class="a">
-  <a class="b" href="http://m.mlb.com/scoreboard">Baseball Scores</a>
-  <a class="b" href="https://www.nhl.com/wild/">Minnesota Wild</a>
-  <a class="b" href="http://www.usatoday.com/sports/nhl/scores/">NHL Scores</a>
-  <a class="b" href="http://www.mnicehawks.com">Rochester Ice Hawks</a>
-</div>
-  
-  <!--
-<div class="a">
-  <a class="b" href="https://www.facebook.com/?sk=h_chr">Facebook</a>
-  <a class="b" href="http://www.tumblr.com">Tumblr</a>
-  <a class="b" href="http://twitter.com">Twitter</a>
-  <a class="b" href="http://engadget.com">Engadget</a> 
-  <a class="b" href="http://gizmodo.com">Gizmodo</a>   
-  <a class="b" href="http://lifehacker.com">Lifehacker</a> 
-  <a class="b" href="http://slashdot.org">Slashdot</a>
-  <a class="b" href="http://pitchfork.com">Pitchfork</a> 
-</div>
--->
-</div>
+<footer class="hidden">
 
-</body>
+</footer>
+</div> <!--.w-->
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-66750402-1','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
